@@ -1,6 +1,5 @@
 # rns.py
 Random Name Selector  
-Just read the code by yourself.I am tired of writing documents.
 it's a "simple" random name selector,but you can use it do some interesting things.
 1.it is ran on python3.
 2.please creat a files named "namelist.txt" in the same path,then write the name in it.
