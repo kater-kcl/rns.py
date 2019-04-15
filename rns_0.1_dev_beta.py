@@ -5,6 +5,7 @@
 # You can use this script freely with the author's name in the script file.
 # 随机姓名选择器
 # 作者：LWD（余晖）
+# 辅助改进：kater-kcl（氯化钾kcl）
 # 请在代码文件中附带作者信息及相关注释即可自由使用。
 # 姓名列表应位于工作目录下 namelist.txt 文件内，
 # 每行一个姓名，不得空行，否则报错。
@@ -98,9 +99,9 @@ if egg==1:
     zwt()
 print('-----------------------')
 # 开始运行
+getname()
 while True:
     print('开始抽取')
-    getname()
     if cheat==1:
         writelog('作弊已启动！')
         nname=getaname()
